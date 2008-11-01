@@ -1,0 +1,4 @@
+.DS_Store
+Tests/UnitTest.xcodeproj/*.mode1v3
+Tests/UnitTest.xcodeproj/*.pbxuser
+Tests/build
