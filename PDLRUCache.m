@@ -44,11 +44,6 @@ andKey:(id)key
 	PDLinkedListNode *node = [_pointer objectForKey:objectKey];
 	if(node) [_list remove:node];
 	node = [_list push:key];
-	/*
-	id prev = [_pointer objectForKey:objectKey];
-	if([[node object] isEqual:[prev object]]){
-		NSLog(@"same!");
-	}*/
 	[_pointer setObject:node forKey:objectKey];
 }
 
